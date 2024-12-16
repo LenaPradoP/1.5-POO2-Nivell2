@@ -6,11 +6,8 @@ require_once("ClassShape.php");
 class Rectangle extends Shape {
 
     public function calculateArea() : float {
-        $Area = 0.0;
 
-        $Area = $this->length * $this->height;
-
-        return $Area;
+        return $this->length * $this->height;
     }
 
 }
